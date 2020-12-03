@@ -3,5 +3,5 @@
 
 **Block vs Inline**
 - Block elements behave like paragraphs and Inline elements behave like words
-- <span> is Inline by default whiel <h1>, <p>, and <div> are block by default
+- (span) is Inline by default while (h1), (p), and (div) are block by default
 - Think inside the box: Every element is a box
