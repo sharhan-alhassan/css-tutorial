@@ -1,4 +1,7 @@
 # css-tutorial
 ## css grid and positioning 
-1. grid
-2. flexbox
+
+**Block vs Inline**
+- Block elements behave like paragraphs and Inline elements behave like words
+- <span> is Inline by default whiel <h1>, <p>, and <div> are block by default
+- Think inside the box: Every element is a box
