@@ -44,9 +44,12 @@ space proportionally between rows and columns that are in fr units
 ## Bootstrap 4 notes:
 - If you wanted for the 2 columns to go on the same line starting with `larger mobile phones (>= 576px) you would use col-sm, for tablets (>= 768px) .col-md and for extra large screens (>= 1200px) .col-xl.`
 - Grid system
-*Image*
+- [Alt text](images/bootstrap-grid.png)
 - NB: Boostrap is designed for mobile friendly at first. So design for your device coming backwards from the right to the left
 - Eg: <div class="col-sm-6 col-lg-3"> x 4 of them
 - Meaning: For mobile first, pack all the 4 columns on each other, that is 1 column in a row 
 - For small devices(sm), 2 columns in a row
 - For large devices(lg), 4 columns in a row
+# Offseeting columns
+- If you don’t want your columns to be next to each other, you can use the class .offset-[breakpoint]-[size]together with the .col-[breakpoint]-[size]. Using this class is the same as adding an empty column before your column
+- Eg: <div class="col-sm-4 offset-sm-4"> will great an empty column occupying first 4 spaces before it 
