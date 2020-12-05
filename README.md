@@ -40,3 +40,13 @@ space proportionally between rows and columns that are in fr units
 - NB: use opposite logic for `min-width` and `max-width`
 - *min-width*: if screen is **min-width** or MORE
 - *max-width*: if screen size is **max-width** or LESS
+
+## Bootstrap 4 notes:
+- If you wanted for the 2 columns to go on the same line starting with `larger mobile phones (>= 576px) you would use col-sm, for tablets (>= 768px) .col-md and for extra large screens (>= 1200px) .col-xl.`
+- Grid system
+*Image*
+- NB: Boostrap is designed for mobile friendly at first. So design for your device coming backwards from the right to the left
+- Eg: <div class="col-sm-6 col-lg-3"> x 4 of them
+- Meaning: For mobile first, pack all the 4 columns on each other, that is 1 column in a row 
+- For small devices(sm), 2 columns in a row
+- For large devices(lg), 4 columns in a row
