@@ -22,3 +22,21 @@ space proportionally between rows and columns that are in fr units
     font-size: 1.6em
 }   
 - Meaning the `h1` should scale 1.6 times the base font of the body. so we ever decide to change the base font of the body the `h1` font will scale accordingly
+
+## Reading attribute values
+- `padding: 10px :` means for all sides (top, right, bottom, left)
+- `padding: 10px 3px 4px 32px:` for all the sides starting with top, right, bottom, left
+- `padding: 23px 34px 32px:` for top, right/left and bottom 
+
+## CSS Grip Template 
+- grid-template-columns: this property defines the number of columns in your grid layout, and it can define the width of each column. Use `auto` if all columns should have the same width
+- grid-template-row: property defines the height of each row 
+- `Box-sizing`: property allows to include the `padding` and `border` in an element's total width and height
+- NB: **A responsive page has a width of 100% for the entire page**
+
+## Media queries
+- Design for mobile first: min-width
+- `@media only screen and (min-width: 500px)`
+- NB: use opposite logic for `min-width` and `max-width`
+- *min-width*: if screen is **min-width** or MORE
+- *max-width*: if screen size is **max-width** or LESS

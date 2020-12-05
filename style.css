@@ -1,0 +1,41 @@
+/* CSS Hub */
+
+* {
+    background-size: border-box;
+}
+
+.nav {
+    background-color: #333;
+}
+
+ul {
+    overflow: hidden;
+    position: sticky;
+    border-top-width: 23px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%; /* helps with 'contact us' float to right*/
+    border: 1px solid #503e3e;
+    
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+}
+
+li a {
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transform: ;
+}
+
+
